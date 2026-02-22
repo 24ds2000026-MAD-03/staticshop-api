@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24ds2000026@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+```
+
+**4. Scroll down → click "Commit new file"**
+
+This will automatically trigger the action on commit!
+
+**5. Verify it ran:**
+- Click the **"Actions"** tab in your repo
+- You should see a green ✅ workflow run
+
+**6. Your repo URL to submit:**
+```
+https://github.com/24ds2000026-MAD-03/staticshop-api
