@@ -1,20 +1,11 @@
 name: CI
-
 on:
   push:
     branches: [ main ]
   workflow_dispatch:
-
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - name: 24ds2000026@ds.study.iitm.ac.in
         run: echo "Hello, world!"
-```
-
-**4. Click "Commit changes" → "Commit directly to main" → "Commit changes"**
-
-**5. Go to Actions tab** → wait for green ✅ → then submit:
-```
-https://github.com/24ds2000026-MAD-03/staticshop-api
