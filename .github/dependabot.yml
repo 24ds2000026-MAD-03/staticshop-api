@@ -1,0 +1,33 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "deps"
+```
+- Commit changes ✅
+
+---
+
+**3. Add `README.md`**
+
+Go to:
+```
+https://github.com/24ds2000026-MAD-03/staticshop-api/new/main
+```
+- Filename: `README.md`
+- Content:
+```
+# StaticShop API
+
+24ds2000026@ds.study.iitm.ac.in
+```
+- Commit changes ✅
+
+---
+
+**4. Submit your repo URL:**
+```
+https://github.com/24ds2000026-MAD-03/staticshop-api
