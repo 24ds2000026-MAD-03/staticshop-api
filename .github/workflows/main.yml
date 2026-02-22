@@ -21,6 +21,4 @@ jobs:
         run: echo "Cache hit ${{ steps.cache-step.outputs.cache-hit }}"
 
 
-**4. Submit:**
-```
-https://github.com/24ds2000026-MAD-03/staticshop-api
+
